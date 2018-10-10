@@ -62,19 +62,19 @@ function sumOfLowNumbers(num1,num2,num3,num4,num5) {
     if (num1 <= 6) {
         sum = sum + num1;
     }
-    if (num1 <= 6) {
+    if (num2 <= 6) {
         sum = sum + num2;
     }
-    if (num1 <= 6) {
+    if (num3 <= 6) {
         sum = sum + num3;
     }
-    if (num1 <= 6) {
+    if (num4 <= 6) {
         sum = sum + num4;
     }
-    if (num1 <= 6) {
+    if (num5 <= 6) {
         sum = sum + num5;
     }
-    return num1 + num2 + num3 + num4 + num5;
+    return sum;
 }
 console.log(sumOfLowNumbers(a,b,c,d,e));
 
